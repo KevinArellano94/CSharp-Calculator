@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Calculator
+{
+    public partial class Calculator : Form
+    {
+        public Calculator()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_Main_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_On_Off_Click(object sender, EventArgs e)
+        {
+                System.Windows.Forms.Application.Exit();
+        }
+
+        private void button_0_Click(object sender, EventArgs e)
+        {
+            double n = 0;
+            // Add function where if you press "0" it adds it as a decimal; ex: 02 = 0.2; 0003 = 0.003
+            if ( textBox_Main.Text == "0" ) { textBox_Main.Text = n.ToString("0.0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+
+        private void button_1_Click(object sender, EventArgs e)
+        {
+            double n = 1;
+            if ( textBox_Main.Text == "0" && textBox_Main.Text != null ) { textBox_Main.Text = n.ToString("0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+
+        private void button_2_Click(object sender, EventArgs e)
+        {
+            double n = 2;
+            if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+    }
+}
