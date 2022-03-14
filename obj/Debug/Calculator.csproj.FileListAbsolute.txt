@@ -9,3 +9,7 @@ C:\Users\kevin\Documents\C#\Calculator\obj\Debug\Calculator.csproj.CoreCompileIn
 C:\Users\kevin\Documents\C#\Calculator\obj\Debug\Calculator.exe
 C:\Users\kevin\Documents\C#\Calculator\obj\Debug\Calculator.pdb
 C:\Users\kevin\Documents\C#\Calculator\obj\Debug\Calculator.Calculator.resources
+C:\Users\kevin\Documents\C#\Calculator\bin\Debug\Calculator.exe.manifest
+C:\Users\kevin\Documents\C#\Calculator\bin\Debug\Calculator.application
+C:\Users\kevin\Documents\C#\Calculator\obj\Debug\Calculator.exe.manifest
+C:\Users\kevin\Documents\C#\Calculator\obj\Debug\Calculator.application
