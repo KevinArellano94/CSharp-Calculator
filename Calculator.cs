@@ -12,6 +12,9 @@ namespace Calculator
 {
     public partial class Calculator : Form
     {
+        double FirstNumber;
+        string Operation; 
+        
         public Calculator()
         {
             InitializeComponent();
@@ -101,6 +104,55 @@ namespace Calculator
             double n = 9;
             if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
             else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+
+        private void button_addition_Click(object sender, EventArgs e)
+        {
+            FirstNumber = Convert.ToDouble(textBox_Main.Text);
+            textBox_Main.Text = "0";
+            Operation = "+";
+        }
+
+        private void button_subtraction_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_multiplication_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_division_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_equals_Click(object sender, EventArgs e)
+        {
+            if (textBox_Main.Text == "")
+            {
+                textBox_Main.Text = "test";
+            }
+            else
+            {
+                double SecondNumber;
+                double Result;
+
+                SecondNumber = Convert.ToDouble(textBox_Main.Text);
+
+                if (Operation == "+")
+                {
+                    Result = (FirstNumber + SecondNumber);
+                    textBox_Main.Text = Convert.ToString(Result);
+                    FirstNumber = Result;
+                }
+            }
+        }
+
+        private void button_clear_Click(object sender, EventArgs e)
+        {
+            textBox_Main.Text = "";
         }
     }
 }
