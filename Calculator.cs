@@ -53,5 +53,54 @@ namespace Calculator
             if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
             else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
         }
+
+        private void button_3_Click(object sender, EventArgs e)
+        {
+            double n = 3;
+            if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+
+        private void button_4_Click(object sender, EventArgs e)
+        {
+            double n = 4;
+            if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+
+        private void button_5_Click(object sender, EventArgs e)
+        {
+            double n = 5;
+            if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+
+        private void button_6_Click(object sender, EventArgs e)
+        {
+            double n = 6;
+            if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+
+        private void button_7_Click(object sender, EventArgs e)
+        {
+            double n = 7;
+            if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+
+        private void button_8_Click(object sender, EventArgs e)
+        {
+            double n = 8;
+            if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
+
+        private void button_9_Click(object sender, EventArgs e)
+        {
+            double n = 9;
+            if (textBox_Main.Text == "0" && textBox_Main.Text != null) { textBox_Main.Text = n.ToString("0"); }
+            else { textBox_Main.Text = textBox_Main.Text + n.ToString("0"); }
+        }
     }
 }
